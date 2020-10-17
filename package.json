@@ -1,0 +1,27 @@
+{
+  "name": "curso-cypress-percy",
+  "version": "1.0.0",
+  "description": "Repositório do curso básico de testes de regressão visual com Cypress e Percy da [Escola Talking About Testing](https://talkingabouttesting.coursify.me).",
+  "main": "index.js",
+  "scripts": {
+    "test": "percy exec -- cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunopulis/curso-cypress-percy.git"
+  },
+  "keywords": [
+    "cypress",
+    "percy"
+  ],
+  "author": "Bruno Pulis <bruno.pulis@gmail.com> (https://brunopulis.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunopulis/curso-cypress-percy/issues"
+  },
+  "homepage": "https://github.com/brunopulis/curso-cypress-percy#readme",
+  "devDependencies": {
+    "@percy/cypress": "^2.3.2",
+    "cypress": "^5.4.0"
+  }
+}
