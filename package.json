@@ -22,6 +22,6 @@
   "homepage": "https://github.com/brunopulis/curso-cypress-percy#readme",
   "devDependencies": {
     "@percy/cypress": "2.3.2",
-    "cypress": "5.4.0"
+    "cypress": "5.6.0"
   }
 }
